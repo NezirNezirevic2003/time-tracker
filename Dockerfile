@@ -12,7 +12,7 @@ RUN unzip /tmp/kimai.zip  -d /var/www/html/
 
 RUN chmod 755 /*.sh
 
-# Create database
+# Create databases
 #RUN service mysql restart; mysqladmin -uadmin -ppass create kimai
 
 # Update file ownership
